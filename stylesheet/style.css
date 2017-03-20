@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  background: url('../images/headerImage.jpg');
+  background-size: cover;
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+a {
+  color: #39205A;
+}
+
+a:hover {
+  color: #17E1E3;
+}
+
+nav a {
+  color: white;
+}
+
+ul, p, a {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+  margin: 40px 0px 0px 0px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.nav-list {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+article {
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.two-projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-item {
+  width: 33%;
+}
+
+.work-item-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.connect-three .work-item-image {
+  /*z-index: -1;*/
+  background-image: url('../images/ConnectThree.png');
+}
+
+.headlines .work-item-image {
+  background-image: url('../images/NYTimesApp.png');
+}
+
+.vortxt .work-item-image {
+  background-image: url('../images/Vortxt.png');
+}
+
+.under-ten .work-item-image {
+  background-image: url('../images/UnderTen.png');
+}
+
+
+.technologies {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  visibility: hidden;
+  flex-wrap: wrap;
+  border-radius: 25px;
+}
+
+.work-item-image:hover .technologies {
+  visibility: visible;
+}
+
+button {
+  align-items: center;
+}
+
+button a {
+  font-size: 15px;
+}
+
+.footer-list {
+  margin: 0px;
+  padding: 20px;
+  background-color: #39205A;
+
+}
+
+.footer-list a {
+  color: #17E1E3;
+}
+
+/*mobile*/
+@media (min-width: 320px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  button a {
+    font-size: 9px;
+  }
+}
+
+/*tablet*/
+@media (min-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  button a {
+    font-size: 14px;
+  }
+}
+
+ /*desktop*/
+@media (min-width: 816px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  button a {
+    font-size: 14px;
+  }
+}
