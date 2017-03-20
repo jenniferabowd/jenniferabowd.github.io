@@ -1,3 +1,3 @@
 # Portfolio
 
-This is my full stack portfolio website.
+This is my portfolio website.
