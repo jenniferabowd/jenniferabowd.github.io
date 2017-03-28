@@ -85,7 +85,6 @@ article {
 }
 
 .connect-three .work-item-image {
-  /*z-index: -1;*/
   background-image: url('../images/ConnectThree.png');
 }
 
