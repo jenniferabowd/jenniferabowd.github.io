@@ -71,6 +71,11 @@ article {
   justify-content: space-around;
 }
 
+.three-projects {
+  display: flex;
+  justify-content: space-between;
+}
+
 .work-item {
   width: 33%;
 }
@@ -143,6 +148,11 @@ button {
   .button-text-size {
     font-size: 11px;
   }
+
+  .three-projects {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*tablet*/
@@ -168,5 +178,10 @@ button {
 
   .button-text-size {
     font-size: 14px;
+  }
+
+  .three-projects {
+    flex-direction: row;
+    align-items: center;
   }
 }
