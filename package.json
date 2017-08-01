@@ -1,0 +1,24 @@
+{
+  "name": "jennifer_kaplan_portfolio",
+  "version": "1.0.0",
+  "description": "This is my portfolio website after switching to GitHub Pages. I initially made my portfolio full stack and hosted it on Heroku to show I can do it. However, with Heroku if it hasn't been visited in a half hour, it takes 30 seconds to load. I decided change it to GitHub Pages to get rid of this load time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenkaplan/jenkaplan.github.io.git"
+  },
+  "author": "Jennifer Kaplan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenkaplan/jenkaplan.github.io/issues"
+  },
+  "homepage": "https://github.com/jenkaplan/jenkaplan.github.io#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
