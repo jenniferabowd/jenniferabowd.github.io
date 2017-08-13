@@ -50,6 +50,14 @@ img {
   background-size: cover;
 }
 
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 500px;
+}
+
 .nav-list {
   padding: 10px;
   background: rgba(0,0,0,0.5);
