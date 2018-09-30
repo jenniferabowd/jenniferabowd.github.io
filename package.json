@@ -1,0 +1,23 @@
+{
+  "name": "about_me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tachyons": "^4.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenniferkaplannyc/jenniferkaplannyc.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenniferkaplannyc/jenniferkaplannyc.github.io/issues"
+  },
+  "homepage": "https://github.com/jenniferkaplannyc/jenniferkaplannyc.github.io#readme"
+}

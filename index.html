@@ -3,6 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Jennifer Kaplan</title>
+  <!-- Tachyons -->
+  <link rel="stylesheet" type="text/css" href="node_modules/tachyons/css/tachyons.min.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
@@ -28,170 +30,151 @@
   </script>
 </head>
 <body>
-  <header>
-    <img src="./images/GA_headshot.jpg" alt="photo of Jennifer Kaplan" width="125">
-    <div class="nav-sticky">
-      <h1>Jennifer Kaplan</h1>
-      <h2>Full Stack Developer</h2>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header class="tc cover white">
+    <img class="ba bw3 br4 b--white cover mt5" src="./images/GA_headshot.jpg" alt="photo of Jennifer Kaplan" width="125">
+    <h1 class="tc">Jennifer Kaplan</h1>
+    <h2 class="tc">Full Stack Developer</h2>
+    <nav>
+      <ul class="nav-list">
+        <li class="di"><a class="white" href="#about">ABOUT</a></li>
+        <li class="di"><a class="white" href="#projects">PROJECTS</a></li>
+        <li class="di"><a class="white" href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <article>
-    <section id="about">
-      <h2>About</h2>
+  <section id="about">
+    <h2 class="tc">About</h2>
+    </br>
+    <p class="tl f5">
+      I am a JavaScript Developer based in Washington DC. I have worked professionally with React and Angular.JS. I am currently working at Fractal Industries, an AI startup with cybersecurity, insurance, and trading products.
       </br>
-      <p class="about__p">
-        I am a JavaScript Developer based in Washington DC. I have worked professionally with React and Angular.JS. I am currently working at Fractal Industries, an AI startup with cybersecurity, insurance, and trading products.
-        </br>
-        </br>
-        I was also a featured speaker at the React NYC meetup hosted by Microsoft where approximately 250 people attended. The topic at I spoke about was an Introduction to Jest Testing that you can view <a style="text-decoration:underline;" href="./images/IntroToJest.pdf">here</a>.
-        </br>
-        </br>
-        I am also a contributor to the Jest testing library built by Facebook where I added an example of using Jest with Webpack, React, Redux, and Node.
-        </br>
-        </br>
-        I have a background in non-profits, so I am always striving to help make the world a better place.
-        <figure>
-           <img src="./images/speakingAtMicrosoft.jpeg" alt="Speaking at Microsoft to 250 people">
-           <figcaption>This is a photo of me speaking at Microsoft about Jest testing to approximately 250 people.</figcaption>
-        </figure>
-      </p>
-    </section>
-  </article>
+      </br>
+      I was also a featured speaker at the React NYC meetup hosted by Microsoft where approximately 250 people attended. The topic at I spoke about was an Introduction to Jest Testing that you can view <a style="text-decoration:underline;" href="./images/IntroToJest.pdf">here</a>.
+      </br>
+      </br>
+      I am also a contributor to the Jest testing library built by Facebook where I added an example of using Jest with Webpack, React, Redux, and Node.
+      </br>
+      </br>
+      I have a background in non-profits, so I am always striving to help make the world a better place.
+      <figure class="tc">
+         <img class="w-70-ns w-90" src="./images/speakingAtMicrosoft.jpeg" alt="Speaking at Microsoft to 250 people">
+         <figcaption>This is a photo of me speaking at Microsoft about Jest testing to approximately 250 people.</figcaption>
+      </figure>
+    </p>
+  </section>
 
-  <article>
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="three-projects">
-        <!-- <div class="two-projects"> -->
-          <div class="work-item connect-three">
-            <h3>Connect Three</h3>
-            <a href="http://www.jenniferkaplan.nyc/connect-three/">
-              <div class="work-item-image">
-                 <ul class="technologies">
-                  <li><b>Technologies Used:</b></li>
-                  <li>JavaScript</li>
-                  <li>jQuery</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Make It Rain library</li>
-                </ul>
-              </div>
-            </a>
-            </br>
-            <div class="btn-group btn-group-justified" role="group">
-              <div class="btn-group" role="group">
-                <a href="http://www.jenniferkaplan.nyc/connect-three/" class="btn btn-default button-text-size">
-                  Live
-                </a>
-              </div>
-              <div class="btn-group" role="group">
-                <a href="https://github.com/jenkaplan/connect-three" class="btn btn-default button-text-size">
-                  GitHub
-                </a>
-              </div>
+  <section id="projects">
+    <h2 class="tc">Projects</h2>
+    <div class="three-projects">
+        <div class="w-100 w-third-ns connect-three">
+          <h3 class="tc">Connect Three</h3>
+          <a href="http://www.jenniferkaplan.nyc/connect-three/">
+            <div class="work-item-image">
+               <ul class="white technologies">
+                <li class="di"><b>Technologies Used:</b></li>
+                <li class="di">JavaScript</li>
+                <li class="di">jQuery</li>
+                <li class="di">HTML</li>
+                <li class="di">CSS</li>
+                <li class="di">Make It Rain library</li>
+              </ul>
+            </div>
+          </a>
+          </br>
+          <div class="btn-group btn-group-justified" role="group">
+            <div class="btn-group" role="group">
+              <a href="http://www.jenniferkaplan.nyc/connect-three/" class="btn btn-default button-text-size">
+                Live
+              </a>
+            </div>
+            <div class="btn-group" role="group">
+              <a href="https://github.com/jenkaplan/connect-three" class="btn btn-default button-text-size">
+                GitHub
+              </a>
             </div>
           </div>
+        </div>
 
-          <div class="work-item headlines">
-            <h3>NY Times Headlines</h3>
-            <a href="http://nytimes-headlines.bitballoon.com">
-              <div class="work-item-image">
-                <ul class="technologies">
-                  <li><b>Technologies Used:</b></li>
-                  <li>React</li>
-                  <li>NY Times API</li>
-                  <li>JavaScript</li>
-                  <li>Firebase</li>
-                  <li>HTML/CSS</li>
-                  <li>Bootstrap</li>
-                </ul>
-              </div>
-            </a>
-            </br>
-             <div class="btn-group btn-group-justified" role="group">
-             <div class="btn-group" role="group">
-                <a href="http://nytimes-headlines.bitballoon.com" class="btn btn-default button-text-size">
-                  Live
-                </a>
-              </div>
-              <div class="btn-group" role="group">
-                <a href="https://github.com/jenkaplan/NYTimesHeadlines" class="btn btn-default button-text-size">
-                  GitHub
-                </a>
-              </div>
+        <div class="w-100 w-third-ns headlines">
+          <h3 class="tc">NY Times Headlines</h3>
+          <a href="http://nytimes-headlines.bitballoon.com">
+            <div class="work-item-image">
+              <ul class="white technologies">
+                <li class="di"><b>Technologies Used:</b></li>
+                <li class="di">React</li>
+                <li class="di">NY Times API</li>
+                <li class="di">JavaScript</li>
+                <li class="di">Firebase</li>
+                <li class="di">HTML/CSS</li>
+                <li class="di">Bootstrap</li>
+              </ul>
+            </div>
+          </a>
+          </br>
+           <div class="btn-group btn-group-justified" role="group">
+           <div class="btn-group" role="group">
+              <a href="http://nytimes-headlines.bitballoon.com" class="btn btn-default button-text-size">
+                Live
+              </a>
+            </div>
+            <div class="btn-group" role="group">
+              <a href="https://github.com/jenkaplan/NYTimesHeadlines" class="btn btn-default button-text-size">
+                GitHub
+              </a>
             </div>
           </div>
+        </div>
 
-          <div class="work-item under-ten">
-            <h3>Under $10</h3>
-            <a href="http://under-ten.herokuapp.com/">
-              <div class="work-item-image">
-                 <ul class="technologies">
-                  <li><b>Technologies Used:</b></li>
-                  <li>JavaScript</li>
-                  <li>Materialize</li>
-                  <li>NodeJS/ExpressJS</li>
-                  <li>Sequelize/PostgrSQL</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-              </div>
-            </a>
-            </br>
-            <div class="btn-group btn-group-justified" role="group">
-              <div class="btn-group" role="group">
-                <a href="http://under-ten.herokuapp.com/" class="btn btn-default button-text-size">
-                  Live
-                </a>
-              </div>
-              <div class="btn-group" role="group">
-                <a href="https://github.com/jenkaplan/underTen" class="btn btn-default button-text-size">
-                  GitHub
-                </a>
-              </div>
+        <div class="w-100 w-third-ns under-ten">
+          <h3 class="tc">Under $10</h3>
+          <a href="http://under-ten.herokuapp.com/">
+            <div class="work-item-image">
+               <ul class="white technologies">
+                <li class="di"><b>Technologies Used:</b></li>
+                <li class="di">JavaScript</li>
+                <li class="di">Materialize</li>
+                <li class="di">NodeJS/ExpressJS</li>
+                <li class="di">Sequelize/PostgrSQL</li>
+                <li class="di">HTML</li>
+                <li class="di">CSS</li>
+              </ul>
+            </div>
+          </a>
+          </br>
+          <div class="btn-group btn-group-justified" role="group">
+            <div class="btn-group" role="group">
+              <a href="http://under-ten.herokuapp.com/" class="btn btn-default button-text-size">
+                Live
+              </a>
+            </div>
+            <div class="btn-group" role="group">
+              <a href="https://github.com/jenkaplan/underTen" class="btn btn-default button-text-size">
+                GitHub
+              </a>
             </div>
           </div>
-      </div>
-    </section>
-  </article>
+        </div>
+    </div>
+  </section>
 
-  <article>
-    <section id="contact">
-      <h2>Contact</h2>
-        <p class="contact__p">I can be reached at
-          <a href="mailto:jenniferkaplan.nyc@gmail.com"> jenniferkaplan.nyc@gmail.com.</a>
-        </p>
-      </section>
-  </article>
+  <section id="contact">
+    <h2 class="tc">Contact</h2>
+    <p class="tc f5">I can be reached at
+      <a href="mailto:jenniferkaplan.nyc@gmail.com"> jenniferkaplan.nyc@gmail.com.</a>
+    </p>
+  </section>
 
-  <footer>
-    <ul class="footer-list">
-       <li>
-        <a href="https://github.com/jenniferkaplannyc">
-          <i class="fa fa-github fa-2x"></i>
-        </a>
-      </li>
-
-      <li>
-        <a href="https://www.linkedin.com/in/jenniferkaplannyc">
-          <i class="fa fa-linkedin fa-2x"></i>
-        </a>
-      </li>
-
-      <li>
-        <a href="mailto:jenniferkaplan.nyc@gmail.com">
-          <i class="fa fa-envelope fa-2x"></i>
-        </a>
-      </li>
-    </ul>
+  <footer class="tc ma0 pa3 bg-navy">
+    <a class="washed-red ph3" href="https://github.com/jenniferkaplannyc">
+      <i class="fa fa-github fa-2x"></i>
+    </a>
+    <a class="washed-red ph3" href="https://www.linkedin.com/in/kaplanjennifer">
+      <i class="fa fa-linkedin fa-2x"></i>
+    </a>
+    <a class="washed-red ph3" href="mailto:jenniferkaplan.nyc@gmail.com">
+      <i class="fa fa-envelope fa-2x"></i>
+    </a>
   </footer>
 </body>
 </html>

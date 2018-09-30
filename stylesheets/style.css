@@ -9,18 +9,15 @@ html, body{
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
+  font-size:16px;
 }
 
 header {
-  text-align: center;
   background: url('../images/headerImage.jpg');
-  background-size: cover;
-  color: white;
 }
 
 h1, h2, h3 {
   font-family: 'Pacifico', cursive;
-  text-align: center;
 }
 
 a {
@@ -31,35 +28,8 @@ a:hover {
   color: #17E1E3;
 }
 
-nav a {
-  color: white;
-}
-
-.about__p {
-  text-align: left;
-}
-
-.contact__p, .footer-list {
-  text-align: center;
-}
-
-p {
-  font-size: 16px;
-}
-
-img {
-  margin: 40px 0px 0px 0px;
-  border: 5px solid white;
-  border-radius: 20px;
-  background-size: cover;
-}
-
-figure {
-  text-align: center;
-}
-
-figure img {
-  width: 500px;
+.washed-red:hover {
+  color: #FF725C;
 }
 
 .nav-list {
@@ -68,28 +38,18 @@ figure img {
 }
 
 li {
-  display: inline;
   padding: 0px 10px 0px 10px;
 }
 
-article {
+section {
   max-width: 900px;
   padding: 20px;
   margin: 0 auto;
 }
 
-.two-projects {
-  display: flex;
-  justify-content: space-around;
-}
-
 .three-projects {
   display: flex;
   justify-content: space-between;
-}
-
-.work-item {
-  width: 33%;
 }
 
 .work-item-image {
@@ -120,7 +80,6 @@ article {
 
 .technologies {
   background: rgba(0,0,0,0.5);
-  color: white;
   position: absolute;
   height: 100%;
   display: flex;
@@ -141,16 +100,6 @@ button {
   align-items: center;
 }
 
-.footer-list {
-  margin: 0px;
-  padding: 20px;
-  background-color: #39205A;
-}
-
-.footer-list a {
-  color: #17E1E3;
-}
-
 /*mobile*/
 @media (min-width: 320px) {
   h1 {
@@ -164,10 +113,6 @@ button {
   .three-projects {
     flex-direction: column;
     align-items: center;
-  }
-
-  figure img {
-    width: 90%;
   }
   .work-item {
     width: 100%;
@@ -183,11 +128,6 @@ button {
   .button-text-size {
     font-size: 14px;
   }
-
-  figure img {
-    width: 500px;
-  }
-
   .work-item {
     width: 33%;
   }
@@ -195,10 +135,6 @@ button {
 
  /*desktop*/
 @media (min-width: 816px) {
-  h1 {
-    font-size: 70px;
-  }
-
   h3 {
     font-size: 20px;
   }
