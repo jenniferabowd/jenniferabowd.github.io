@@ -27,10 +27,12 @@ h2 {
 img {
   width: 110px;
 }
+
 .washed-red:hover {
-  color: #FF725C;
+  color: white;
   text-decoration: none;
 }
+
 .white-link:hover {
   text-decoration: underline;
   color: #96CCFF;
