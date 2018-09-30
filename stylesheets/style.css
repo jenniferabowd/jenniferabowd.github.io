@@ -47,11 +47,6 @@ section {
   margin: 0 auto;
 }
 
-.three-projects {
-  display: flex;
-  justify-content: space-between;
-}
-
 .work-item-image {
   background-repeat: no-repeat;
   background-position: center center;
@@ -96,10 +91,6 @@ section {
   visibility: visible;
 }
 
-button {
-  align-items: center;
-}
-
 /*mobile*/
 @media (min-width: 320px) {
   h1 {
@@ -108,14 +99,6 @@ button {
 
   .button-text-size {
     font-size: 11px;
-  }
-
-  .three-projects {
-    flex-direction: column;
-    align-items: center;
-  }
-  .work-item {
-    width: 100%;
   }
 }
 
@@ -128,23 +111,11 @@ button {
   .button-text-size {
     font-size: 14px;
   }
-  .work-item {
-    width: 33%;
-  }
 }
 
  /*desktop*/
 @media (min-width: 816px) {
   h3 {
     font-size: 20px;
-  }
-
-  .button-text-size {
-    font-size: 14px;
-  }
-
-  .three-projects {
-    flex-direction: row;
-    align-items: center;
   }
 }
