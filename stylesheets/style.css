@@ -32,13 +32,8 @@ a:hover {
   color: #FF725C;
 }
 
-.nav-list {
-  padding: 10px;
+.background-opacity {
   background: rgba(0,0,0,0.5);
-}
-
-li {
-  padding: 0px 10px 0px 10px;
 }
 
 section {
@@ -48,12 +43,7 @@ section {
 }
 
 .work-item-image {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
   padding-bottom: 56.25%;
-  position: relative;
-  width: 100%;
   border-radius: 25px;
 }
 
@@ -65,25 +55,13 @@ section {
   background-image: url('../images/NYTimesApp.png');
 }
 
-.vortxt .work-item-image {
-  background-image: url('../images/Vortxt.png');
-}
-
 .under-ten .work-item-image {
   background-image: url('../images/UnderTen.png');
 }
 
 .technologies {
-  background: rgba(0,0,0,0.5);
-  position: absolute;
   height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
   visibility: hidden;
-  flex-wrap: wrap;
   border-radius: 25px;
 }
 
@@ -96,20 +74,12 @@ section {
   h1 {
     font-size: 40px;
   }
-
-  .button-text-size {
-    font-size: 11px;
-  }
 }
 
 /*tablet*/
 @media (min-width: 768px) {
   h1 {
     font-size: 70px;
-  }
-
-  .button-text-size {
-    font-size: 14px;
   }
 }
 
