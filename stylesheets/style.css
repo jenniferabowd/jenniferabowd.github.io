@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,174 +10,44 @@ html, body{
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Lato', sans-serif;
   scroll-behavior: smooth;
 }
 
-header {
-  background: url('../images/headerImage.jpg');
+.rainbow-letters {
+  font-size: 0;
 }
 
-h1, h2, h3 {
-  font-family: 'Pacifico', cursive;
+.rainbow-letters span {
+  font-size: 2rem;
 }
 
-h2 {
-  font-size: 30px
+.rainbow-letters span:nth-child(4n + 1) {
+  color: #e96290;
 }
 
-img {
-  width: 110px;
+.rainbow-letters span:nth-child(4n + 2), a {
+  color: #185290;
 }
 
-.washed-red:hover {
-  color: white;
-  text-decoration: none;
+.rainbow-letters span:nth-child(4n + 3) {
+  color: #009499;
 }
 
-.white-link:hover {
-  text-decoration: underline;
-  color: #96CCFF;
-}
-
-.white-link:visited {
-  text-decoration: none;
-  color: white;
-}
-
-.normal-link:hover {
-  text-decoration: underline;
-  color: #001B44;
-}
-
-.normal-link:visited {
-  text-decoration: none;
-  color: #00449E;
-}
-
-.background-opacity {
-  background: rgba(0,0,0,0.5);
-}
-
-section {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.work-item-image {
-  padding-bottom: 56.25%;
-  border-radius: 25px;
-}
-
-.connect-three .work-item-image {
-  background-image: url('../images/ConnectThree.png');
-}
-
-.headlines .work-item-image {
-  background-image: url('../images/NYTimesApp.png');
-}
-
-.under-ten .work-item-image {
-  background-image: url('../images/UnderTen.png');
-}
-
-.technologies {
-  height: 100%;
-  visibility: hidden;
-  border-radius: 25px;
-}
-
-.work-item-image:hover .technologies {
-  visibility: visible;
-}
-
-/*The following are the Bootstrap classes I needed to keep to make the buttons look good*/
-.btn-group-justified {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: separate;
-}
-
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.btn-default {
-    background-color: #fff;
-    border-color: #ccc;
-}
-
-.btn-group, .btn-group-vertical {
-    position: relative;
-    vertical-align: middle;
-}
-
-.btn-group-justified>.btn-group {
-    display: table-cell;
-    float: none;
-    width: 1%;
-}
-
-.btn-group>.btn-group:first-child:not(:last-child)>.btn:last-child, .btn-group>.btn-group:first-child:not(:last-child)>.dropdown-toggle {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-.btn-group>.btn-group:last-child:not(:first-child)>.btn:first-child {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.btn-group-justified>.btn-group .btn {
-    width: 100%;
-}
-
-.btn-group>.btn {
-    position: relative;
-    float: left;
-}
-
-.btn-group>.btn:first-child {
-    margin-left: 0;
-}
-
-/*mobile*/
-@media (min-width: 320px) {
-  h1 {
-    font-size: 40px;
-  }
+.rainbow-letters span:nth-child(4n + 4) {
+  color: #ff6f61;
 }
 
 /*tablet*/
 @media (min-width: 768px) {
-  h1 {
-    font-size: 70px;
+  .rainbow-letters span {
+    font-size: 36px;
   }
 }
 
  /*desktop*/
 @media (min-width: 816px) {
-  h3 {
-    font-size: 20px;
+  .rainbow-letters span {
+    font-size: 48px;
   }
 }
