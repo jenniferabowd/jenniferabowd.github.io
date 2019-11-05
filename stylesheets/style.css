@@ -22,32 +22,20 @@ html, body{
   font-size: 2rem;
 }
 
-.rainbow-letters span:nth-child(7n + 1) {
+.rainbow-letters span:nth-child(4n + 1) {
   color: #e96290;
 }
 
-.rainbow-letters span:nth-child(7n + 2) {
+.rainbow-letters span:nth-child(4n + 2), a {
   color: #185290;
 }
 
-.rainbow-letters span:nth-child(7n + 3) {
+.rainbow-letters span:nth-child(4n + 3) {
   color: #009499;
 }
 
-.rainbow-letters span:nth-child(7n + 4) {
+.rainbow-letters span:nth-child(4n + 4) {
   color: #ff6f61;
-}
-
-.rainbow-letters span:nth-child(7n + 5) {
-  color: #de98ab;
-}
-
-.rainbow-letters span:nth-child(7n + 6) {
-  color: #ffda29;
-}
-
-.rainbow-letters span:nth-child(7n + 7) {
-  color: #98ddde;
 }
 
 /*tablet*/
